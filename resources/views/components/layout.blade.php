@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5/dist/themes.css" rel="stylesheet" type="text/css" />
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="min-h-screen flex flex-col bg-base-200 font-sans">
+<body class="min-h-screen bg-base-200 font-sans">
     <nav class="navbar bg-base-100 border-b border-base-300 px-4">
         <div class="flex-1">
             <a href="/" class="flex items-center gap-2 font-bold text-lg">
