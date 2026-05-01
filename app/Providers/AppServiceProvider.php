@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Vite;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -18,8 +19,7 @@ class AppServiceProvider extends ServiceProvider
      * Bootstrap any application services.
      */
     public function boot(): void
-{
-    if (config('app.env') !== 'local') {
-        \Illuminate\Support\Facades\URL::forceScheme('https');
+    {
+        Vite::prefetch(concurrency: 3);
     }
 }
