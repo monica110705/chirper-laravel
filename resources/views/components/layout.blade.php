@@ -19,7 +19,7 @@
         </div>
         <div class="flex-none gap-2">
             <a href="#" class="btn btn-ghost btn-sm normal-case">Sign In</a>
-            <a href="#" class="btn btn-dark btn-sm normal-case bg-black text-white hover:bg-gray-800">Sign Up</a>
+            <a href="#" class="btn btn-primary btn-sm normal-case">Sign Up</a>
         </div>
     </nav>
 
