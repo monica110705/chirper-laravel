@@ -1,17 +1,11 @@
 <x-layout>
-    <x-slot:title>
-        Welcome
-    </x-slot:title>
-
-    <div class="max-w-2xl mx-auto">
-        <div class="card bg-base-100 shadow mt-8">
-            <div class="card-body">
-                <div>
-                    <h1 class="text-3xl font-bold">Welcome to Chirper!</h1>
-                    <p class="mt-4 text-base-content/60">
-                        This is your brand new Laravel application. Time to make it sing (or chirp)!
-                    </p>
-                </div>
+    <div class="flex flex-col items-center justify-center min-h-[50vh]">
+        <div class="card bg-base-100 shadow-xl p-10 text-center border border-base-300">
+            <h1 class="text-4xl font-bold text-primary">Selamat Datang di Chirper! 🐦</h1>
+            <p class="mt-4 text-lg">Jika kamu melihat ini, berarti Layout, Tailwind, dan Vite kamu sudah jalan!</p>
+            <div class="mt-6 flex gap-2 justify-center">
+                <button class="btn btn-primary text-white">Mulai Nge-Chirp</button>
+                <button class="btn btn-outline">Pelajari Lebih Lanjut</button>
             </div>
         </div>
     </div>
