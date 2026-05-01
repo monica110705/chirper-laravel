@@ -13,7 +13,7 @@
     daisyui: {
       themes: ["cupcake"],
     },
-  }
+  };
 </script>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
@@ -26,7 +26,6 @@
         </div>
         <div class="flex-none gap-2">
            <a href="#" class="btn btn-primary btn-sm normal-case">Sign Up</a>
-            <a href="#" class="btn btn-sm normal-case" style="background-color: #ffb3d9 !important; color: white !important;">Sign Up</a>
         </div>
     </nav>
 
