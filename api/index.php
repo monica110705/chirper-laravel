@@ -1,2 +1,15 @@
-<?php
-require __DIR__ . '/../public/index.php';
+{
+  "version": 2,
+  "framework": "laravel",
+  "functions": {
+    "api/index.php": {
+      "runtime": "vercel-php@0.6.0"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.php"
+    }
+  ]
+}
